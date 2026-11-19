@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs (keep directory, ignore runtime logs)
+logs/*.log
+*.log
+!logs/.gitkeep
+
+# Runtime received and downloaded files
+server/received_files/*
+!server/received_files/.gitkeep
+
+client/downloaded_files/*
+!client/downloaded_files/.gitkeep
+
+# Generated stress-test files & partial recovery files
+test-files/largefile.bin
+*.partial
+

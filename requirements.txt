@@ -1,0 +1,13 @@
+# requirements.txt
+# =================
+# The core project has ZERO external dependencies — it runs on the Python 3.9+
+# standard library only (socket, threading, json, struct, hashlib, os, sys, logging).
+#
+# tqdm is an optional enhancement that provides a nicer progress bar.
+# The project automatically falls back to its own stdlib progress bar if tqdm
+# is not installed, so installing it is purely a cosmetic choice.
+#
+# To install the optional dependency:
+#   pip install -r requirements.txt
+
+tqdm>=4.64.0
